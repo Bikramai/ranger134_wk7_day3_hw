@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Come check your weather</title>
+</head>
+<body>
+    <body>
+        <h1 class="text-center">Weather App</h1>
+        <!-- Ranger HTML Elements -->
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+            <form name="test-data" id="test-data-form">
+                <!-- <label for="first-name">Enter Your Zip Code Here! </label> -->
+                <input type="text" name="Zip-Code" placeholder="Enter Your Zip Code Here!" id="zip-code">
+                <button id="submit-button" type="submit" onclick="loadData(event)">Submit Me!😐</button>
+               
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+        
+                    <section class="list-group weather-list mt-3">
+                        <!-- API Content Here -->
+        
+                    </section>
+                </div>
+            </div>
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
